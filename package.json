@@ -1,9 +1,16 @@
 {
 "name": "node-api",
     "main": "server.js",
+    "private": true,
     "dependencies": {
-        "express": "~4.0.0",
-        "mongoose": "~3.6.13",
-        "body-parser": "~1.0.1"
-    }
+  "cylon":         "~1.1.0",
+  "cylon-gpio":    "~0.26.0",
+  "cylon-i2c":     "~0.22.0",
+  "cylon-firmata": "~0.22.0",
+  "express": "~4.0.0",
+  "mongoose": "~3.6.13",
+  "body-parser": "~1.0.1",
+  "browserify":    "~10.2.4"
+}
+
 }
